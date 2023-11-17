@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Roboto+Condensed:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="form-wrapper">
+        <div class="enter-reg">
+            <button class="btn entertop">
+                <a class="enter-top">ВХОД</a>
+            </button>
+            <button class="btn registration">
+                <a class="registration">РЕГИСТРАЦИЯ</a>
+            </button>
+        </div>
+        <form onsubmit="return mySubmitFunction(event)">
+            <div class="name" for="name">
+                <p>Имя</p>
+                <input type="text" id="name">
+            </div>
+            <div class="lastname" for="lastname">
+                <p>Фамилия</p>
+                <input type="text" id="lastname">
+            </div>
+            <div class="email" for="email">
+                <p>E-mail</p>
+                <input type="email" id="email">
+            </div>
+            <div class="password" for="password">
+                <p>Пароль</p>
+                <input type="password" id="password">
+            </div>
+            <div class="repeat-pass" for="repeat-pass">
+                <p>Подтвердите пароль</p>
+                <input type="password" id="repeat-pass">
+            </div>
+            <button class="registrate">Регистрация</button>
+            <hr>
+            <div class="enter-google">
+                <a href="">
+                    <div class="google-img">
+                        <img src="./icons/flat-color-icons_google.svg" alt=""> 
+                    </div>
+                    <button class="google">
+                            Продолжить с <span class="thick-google">Google</span>
+                    </button>
+                </a>
+            </div>
+        </form>
+    </div>
+    <div class="enter-wrapper">
+        <div class="enter-reg">
+            <button class="btn entertop">
+                <a class="enter-top">ВХОД</a>
+            </button>
+            <button class="btn registration">
+                <a class="registration">РЕГИСТРАЦИЯ</a>
+            </button>
+        </div>
+        <form onsubmit="return mySubmitFunction(event)">
+            <div class="email" for="email">
+                <p>E-mail</p>
+                <input type="email" id="email">
+            </div>
+            <div class="password" for="password">
+                <p>Пароль</p>
+                <input type="password" id="password">
+            </div>
+            <div class="remember">
+                <input type="checkbox">
+                <p>Запомнить меня</p>
+            </div>
+            <button class="enter">Войти</button>
+            <hr>
+            <div class="reset-password">
+                <button class="reset">Забыли пароль?</button>
+            </div>
+            <div class="enter-google">
+                <a href="">
+                    <div class="google-img">
+                        <img src="./icons/flat-color-icons_google.svg" alt=""> 
+                    </div>
+                    <button class="google">
+                            Продолжить с <span class="thick-google">Google</span>
+                    </button>
+                </a>
+            </div>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

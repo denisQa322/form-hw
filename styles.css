@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: purple;
+    display: flex;
+    font-family: 'Lora', sans-serif;
+}
+
+a{
+    font-family: 'Lora', sans-serif;
+}
+button{
+    cursor: pointer;
+    border: none;
+    background: none;
+    font-family: 'Lora', sans-serif;
+}
+
+.form-wrapper{
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    margin: 100px;
+    width: 458px;
+    display: flex;
+    flex-direction: column;
+    padding: 87px 92px 83px 93px;
+}
+
+.enter-reg{
+    margin-bottom: 45px;
+}
+
+.enter-reg .btn.enter{
+    margin-right: 25px;
+}
+
+.enter-reg button a{
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+input{
+    width: 273px;
+    height: 50px;
+    background-color: #F8F1FF;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    padding: 15px;
+    font-size: 12px;
+    color:#403A4B;;
+}
+
+.name,.lastname,.email,.password,.repeat-pass{
+    position: relative;
+    cursor: pointer;
+}
+.name p,.lastname p,.email p,.password p,.repeat-pass p{
+    position: absolute;
+    color: #403A4B99;
+    top: 5px;
+    left: 15px;
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+
+.repeat-pass{
+    margin-bottom: 40px;
+}
+
+.registrate{
+    background-color: #985ACE;
+    color: #FFFFFF;
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 7px;
+    width: 100%;
+}
+
+hr{
+    margin: 20px 0;
+}
+
+.enter-google{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    border: 1px solid #985ACE;
+    border-radius: 7px;
+}
+
+.enter-google a{
+    display: flex;
+    text-decoration: none;
+}
+
+.google-img img{
+    width: 20px;
+    height: 20px;
+    margin-right: 25px;
+}
+
+.thick-google{
+    font-weight: 700;
+}
+
+.enter-wrapper{
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    margin: 100px;
+    margin-top: 250px;
+    width: 458px;
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    padding: 87px 92px 83px 93px;
+}
+
+.enter-wrapper form .password{
+    margin-bottom: 20px;
+}
+.remember{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.remember input{
+    width: 15px;
+    height: 15px;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+
+.enter{
+    background-color: #985ACE;
+    color: #FFFFFF;
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 7px;
+    width: 100%;
+}
+
+.enter-wrapper hr{
+    margin-bottom: 5px;
+}
+.reset{
+    width: 100%;
+    margin-bottom: 20px;
+}
